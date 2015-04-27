@@ -1,0 +1,198 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	font-family: 'Slabo 27px', serif;
+	min-width: 960px;
+}
+
+#modal-container {
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: absolute;
+	display: none;
+}
+
+#modal-overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-box {
+    width: 460px;
+    height: 400px;
+    background-color: #19192F;
+    position: absolute;
+    top: calc(((100% - 400px) / 2) - 20px);
+    left: calc((100% - 500px) / 2);
+    z-index: 100;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+#modal-header {
+    font-size: 1.5em;
+    padding-bottom: 3px;
+    color: white;
+}
+
+#modal-text {
+	color: white;
+	padding-bottom: 10px;
+}
+
+#modal-footer {
+    color: #19192F;
+    font-size: 12.5px;
+    float: right;
+    font-family: 'Slabo 27px', serif;
+}
+
+.buttons {
+    display: inline-block;
+    background: white;
+    width: 55px;
+    height: 20px;
+    padding: 10px 10px 10px 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.label  {
+    border: 5px solid white;
+    padding: 10px;
+    background: transparent;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 460px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+} 
+
+#blurb {
+	height: 220px;
+}
+
+.label::-webkit-input-placeholder  {
+    color: white;
+} 
+.section {
+	width: 100%;
+	height: 720px;
+	position: relative;
+}
+
+#img {
+	width: 100%;
+	height: 720px;
+}
+
+#title {
+	color: white;
+	font-size: 44px;
+	position: absolute;
+	top: calc(100% - 220px);
+	padding: 60px;
+	font-family: 'Slabo 27px', serif;
+}
+
+#title2 {
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#bioImg {
+	height: 68%;
+	width: 390px;
+	margin-top: 100px;
+}
+
+.button {
+	background: black;
+	width: 100px;
+	padding: 15px 20px;
+	cursor: pointer;
+	border-radius: 2px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-right: 10px;
+	color: white;
+}
+#section2 {
+	margin-left: calc((100% - 800px) / 2);
+}
+
+#bio {
+	background-color: #DCDCDC;
+}
+
+#bioI {
+	display: inline-block;
+}
+
+#text {
+	color: black;
+	width: 320px;
+	font-family: 'Slabo 27px', serif;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#ashleyIs {
+	font-size: 20px;
+}
+
+#resume {
+	background-color: #19192F;
+	padding-top: 75px;
+}
+
+
+#second-row {
+	margin-left: calc((100% - 590px)/2);
+}
+
+#first {
+	margin-left: calc((100% - 155px)/2);
+	margin-top: 30px;
+}
+
+#third-row {
+	margin-left: calc((100% - 370px)/2);
+}
+
+.circle {
+	width: 140px;
+	height: 140px;
+	padding: 15px;
+	background: #DCDCDC;
+	border-style: dotted;
+	display: inline-block;
+	color: #585858;
+	border-radius: 50%;
+	margin: 15px;
+	cursor: pointer;
+	position: relative;
+}
+
+.c {
+	width: 100%
+}
+
+#resumeFile {
+	text-decoration: none;
+}
+
+#final {
+	color: #585858;
+	font-size: 50px;
+	display: none;
+	z-index: 100;
+	position: absolute;
+	top: calc((100% - 50px) / 2);
+	left: calc((100% - 370px) / 2);
+}
